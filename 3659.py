@@ -1,4 +1,5 @@
 from collections import defaultdict
+from typing import List
 class Solution:
     def partitionArray(self, nums: List[int], k: int) -> bool:
         map1=defaultdict(int)
